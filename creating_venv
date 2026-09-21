@@ -1,0 +1,14 @@
+first create a IAM user with BedrockFullAccess , and create access keys make sure to select (Application running outside AWS in usecase options)
+
+
+# create virtual environment
+conda create -p venv python==3.11 -y
+
+#activate virtual environment
+conda activate .\venv
+
+# install requirements
+pip install -r requirements.txt
+
+# setup aws in terminal providing crediantials( key_id, secretkey, region="us-east1", output="json")
+aws configure

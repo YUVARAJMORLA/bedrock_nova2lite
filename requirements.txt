@@ -1,0 +1,4 @@
+boto3
+awscli
+
+# streamlit ## if you also want streamlit application
