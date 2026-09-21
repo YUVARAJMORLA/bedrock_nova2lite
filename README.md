@@ -29,7 +29,7 @@ Save the generated **Access Key ID** and **Secret Access Key** securely.
 Create a Conda environment inside the project folder:
 
 ```bash
-conda create -p venv python=3.11 -y
+conda create -p venv python==3.11 -y
 ```
 
 Activate the environment:
